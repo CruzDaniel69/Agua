@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+body{
+    font-family: "Montserrat", sans-serif;
+    padding: 0;
+    margin: 0;
+}
+header{
+    background-color: rgb(105, 144, 202);
+    width: auto;
+    box-shadow: 0px 2px 10px #424242;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items:center;
+    font-size: 19px;
+}
+nav img{
+    width: 150px;
+}
+nav a{
+    text-decoration: none;
+    text-shadow: 16px;
+    color: white;
+}
+footer{
+    background-color: rgb(168, 168, 168);
+    text-align: center;
+    color: rgb(88, 88, 88);
+    padding: 65px;
+}
+.tarjeta{
+    display: flex;
+    justify-content: center;
+}
+.card{
+    margin: 50px;
+    width: 1000px;
+    height: 400px;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0px 5px 10px #424242;
+    background-image: url(https://romin.com/wp-content/uploads/2023/03/NOTA-A-2-1500x750.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.card h2{
+    text-decoration: none;
+    text-shadow: 16px;
+    color: white;
+    text-shadow: 0px 5px 10px #424242;
+}
+.card a{
+    text-decoration: none;
+    color: white;
+    box-shadow: 0px 5px 10px #424242;
+    text-shadow: 0px 5px 10px #424242;
+    border-color: white;
+    border-style: solid;
+    border-radius: 10px;
+    padding: 9px;
+}

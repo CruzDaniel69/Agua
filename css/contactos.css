@@ -1,3 +1,4 @@
+
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 body{
     font-family: "Montserrat", sans-serif;
@@ -8,6 +9,9 @@ header{
     background-color: rgb(105, 144, 202);
     width: auto;
     box-shadow: 0px 2px 10px #424242;
+}
+header img{
+    padding: 10px;
 }
 nav{
     display: flex;
@@ -23,23 +27,21 @@ nav a{
     text-shadow: 16px;
     color: white;
 }
-.tarjetas1{
+footer{
+    background-color: rgb(168, 168, 168);
+    text-align: center;
+    color: rgb(88, 88, 88);
+    padding: 65px;
+}
+.lugar{
     display: flex;
     justify-content: center;
+    padding: 10px;
 }
-.card{
-    width: 450px;
-    margin: 20px;
-    border-radius: 13px;
-    overflow: hidden;
-    box-shadow: 0px 5px 10px #424242;
-}
-.card img{
-    width: 450px;
-    background-size: cover;
-    background-position: center;
-}
-.card h1, p{
+.info{
     text-align: center;
-    font-size: 23px;
+}
+.social{
+    padding: 20px;
+    font-size: 27px;
 }
